@@ -1,0 +1,18 @@
+{
+    "name": "sruuua/event-dispatcher",
+    "type": "library",
+    "require": {
+        "sruuua/dependency-injection": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sruuua\\EventDispatcher\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "pierre27.ambroise",
+            "email": "pierre27.ambroise@gmail.com"
+        }
+    ]
+}
