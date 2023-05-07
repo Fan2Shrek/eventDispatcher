@@ -2,7 +2,7 @@
     "name": "sruuua/event-dispatcher",
     "type": "library",
     "require": {
-        "sruuua/dependency-injection": "^2.1"
+        "sruuua/dependency-injection": "^3.0"
     },
     "autoload": {
         "psr-4": {
