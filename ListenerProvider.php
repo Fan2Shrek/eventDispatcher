@@ -2,8 +2,8 @@
 
 namespace Sruuua\EventDispatcher;
 
-use Sruuua\EventDispatcher\Interfaces\ListenerInterface;
-use Sruuua\EventDispatcher\Interfaces\ListenerProviderInterface;
+use Sruuua\EventDispatcher\Interface\ListenerInterface;
+use Sruuua\EventDispatcher\Interface\ListenerProviderInterface;
 
 class ListenerProvider implements ListenerProviderInterface
 {

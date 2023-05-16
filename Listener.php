@@ -2,7 +2,7 @@
 
 namespace Sruuua\EventDispatcher;
 
-use Sruuua\EventDispatcher\Interfaces\ListenerInterface;
+use Sruuua\EventDispatcher\Interface\ListenerInterface;
 
 abstract class Listener implements ListenerInterface
 {

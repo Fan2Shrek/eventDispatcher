@@ -2,10 +2,10 @@
 
 namespace Sruuua\EventDispatcher;
 
-use Sruuua\EventDispatcher\Interfaces\EventDispatcherInterface;
-use Sruuua\EventDispatcher\Interfaces\ListenerInterface;
-use Sruuua\EventDispatcher\Interfaces\ListenerProviderInterface;
-use Sruuua\EventDispatcher\Interfaces\StoppableEventInterface;
+use Sruuua\EventDispatcher\Interface\EventDispatcherInterface;
+use Sruuua\EventDispatcher\Interface\ListenerInterface;
+use Sruuua\EventDispatcher\Interface\ListenerProviderInterface;
+use Sruuua\EventDispatcher\Interface\StoppableEventInterface;
 use Sruuua\DependencyInjection\Container;
 
 class EventDispatcher implements EventDispatcherInterface

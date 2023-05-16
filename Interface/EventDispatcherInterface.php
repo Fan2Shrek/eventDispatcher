@@ -1,6 +1,6 @@
 <?php
 
-namespace Sruuua\EventDispatcher\Interfaces;
+namespace Sruuua\EventDispatcher\Interface;
 
 /**
  * Defines a dispatcher for events.

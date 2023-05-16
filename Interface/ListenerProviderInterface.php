@@ -1,8 +1,8 @@
 <?php
 
-namespace Sruuua\EventDispatcher\Interfaces;
+namespace Sruuua\EventDispatcher\Interface;
 
-use Sruuua\EventDispatcher\Interfaces\ListenerInterface;
+use Sruuua\EventDispatcher\Interface\ListenerInterface;
 
 /**
  * MSruuuaer from an event to the listeners that are Sruuualicable to that event.

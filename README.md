@@ -22,7 +22,7 @@ class Event{
 ```php
 namespace App\Listener;
 
-use Sruuua\EventDispatcher\Interfaces\ListenerInterface;
+use Sruuua\EventDispatcher\Interface\ListenerInterface;
 
 class Listener implements ListenerInterface{
     public function listen(): string
@@ -35,4 +35,5 @@ class Listener implements ListenerInterface{
         echo $event->getMessage();
     }
 }
+
 ```
